@@ -1,0 +1,22 @@
+Instalando Dependências:
+    Explorador de Arquivos (provavelmente pasta de downloads)
+        Extrair arquivo compactado
+    IntelliJ IDEA
+        Menu (4 barras horizontais no canto superior esquerdo)
+        File
+        Project Structure
+        Modules
+        Botão de "+" (Cuidado que tem 2, é o mais a direita logo acima da lista de dependências)
+        JARs or Directories....
+        Selecionar o arquivo .jar da pasta extraída anteriormente
+
+
+Dependências: --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- ---
+
+MySQL Server:
+    XAMPP
+        Rodar o MySQL server
+MySQL Connector J:
+    https://dev.mysql.com/downloads/connector/j/
+        No seletor estilo dropdown selecionar "Platform Independent"
+        Baixar Platform Independent (Architecture Independent), ZIP Archive 9.5.0 (mysql-connector-j-9.5.0.zip)

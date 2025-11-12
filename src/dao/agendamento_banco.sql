@@ -1,0 +1,12 @@
+CREATE DATABASE agendamento;
+USE agendamento;
+
+CREATE TABLE pacientes (
+	id INT AUTO_INCREMENT PRIMARY KEY,
+	nome TINYTEXT NOT NULL,
+	cpf TINYTEXT NOT NULL,
+	idade INT NOT NULL,
+	email TINYTEXT,
+	telefone TINYTEXT,
+	horario CHAR(5) NOT NULL
+);
